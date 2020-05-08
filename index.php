@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Image uploader for imges.quirky.codes</title>
+  <title>Simple file uplaoder using Dropzone.JS</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>        
@@ -16,7 +16,7 @@
  <body>
   <div class="container">
    <br />
-   <h3 align="center">Image uploader for imges.quirky.codes</h3>
+   <h3 align="center">Simple image uploader using Dropzone.JS</h3>
    <br />
    
    <form action="upload.php" class="dropzone" id="dropzoneFrom">
