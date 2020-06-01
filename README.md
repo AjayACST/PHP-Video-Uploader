@@ -4,7 +4,7 @@ This is a simple file uploader using Dropzone.js and PHP.
 
 ## Installation
 
-To install simply download all files seen here: index.php, upload.php and the upload folder and copy them to your webserver. Make sure you have PHP installed and configured on your WebServer
+To install simply download all files seen here: index.php, upload.php and the upload folder and copy them to your webserver. Make sure you have PHP AND ffmpeg installed and configured on your WebServer
 
 ## Usage
 
