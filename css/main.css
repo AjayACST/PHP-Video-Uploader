@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'nasalizationregular';
+    src: url('../fonts/nasalization-rg-webfont.woff2') format('woff2'),
+         url('../fonts/nasalization-rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.font {
+    font-family: nasalizationregular;
+}
+
+.video-size {
+    position: relative;
+    width: 1280px;
+    overflow: hidden;
+}
+
+.bg-body {
+    background-image: url("https://picsum.photos/1920/1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.preview {
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+.plyr--fullscreen-active video {
+    max-height: 100% !important
+}

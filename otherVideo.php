@@ -40,8 +40,7 @@ if(false !== $files)
   if('.' !=  $file && '..' != $file)
   {
    $output .= '
-   <a href="/view.php?file='.$file.'" target="_blank"> <img src="thumb/'.$file.'.png" class="img-thumbnail" width="246px" height="138px" style="height:138px;" /></a>
-    <button type="button" class="btn btn-link remove_image" id="'.$file.'">Remove</button>
+   <a href="/view.php?file='.$file.'"> <img src="thumb/'.$file.'.png" class="img-thumbnail" width="246px" height="138px" style="height:138px;" /></a>
    ';
   }
  }

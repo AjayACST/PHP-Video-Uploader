@@ -6,21 +6,21 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Simple file uplaoder using Dropzone.JS</title>
+  <title>Personal Video Uploader</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>        
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.js"></script>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/main.css">
  </head>
- <body>
+ <body class="bg-body">
   <div class="container">
    <br />
-   <h3 align="center">Simple image uploader using Dropzone.JS</h3>
+   <h3 align="center" class="font">Personal Video Uploader</h3>
    <br />
    
-   <form action="upload.php" class="dropzone" id="dropzoneFrom">
+   <form action="upload.php" class="dropzone font" id="dropzoneFrom">
 
    </form>
    
@@ -29,7 +29,7 @@
    <br />
    <br />
    <div align="center">
-    <button type="button" class="btn btn-info" id="submit-all">Upload</button>
+    <button type="button" class="btn btn-info font" id="submit-all">Upload</button>
    </div>
    <br />
    <br />
@@ -47,7 +47,7 @@ $(document).ready(function(){
  Dropzone.options.dropzoneFrom = {
   autoProcessQueue: true,
   timeout: 300000,
-  acceptedFiles:".png,.jpg,.gif,.bmp,.jpeg, .mp4",
+  acceptedFiles:"video/*",
   init: function(){
    var submitButton = document.querySelector('#submit-all');
    myDropzone = this;
@@ -72,7 +72,7 @@ $(document).ready(function(){
   $.ajax({
    url:"upload.php",
    success:function(data){
-    $('#preview').html(data);
+    $("#preview").html(data);
    }
   });
  }
