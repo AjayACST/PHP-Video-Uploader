@@ -13,6 +13,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.js"></script>
   <link rel="stylesheet" href="css/main.css">
+  <SCRIPT language="JavaScript">
+<!--hide
+
+var password;
+
+var pass1="Pass1234";
+
+password=prompt('Please enter your password to view this page!',' ');
+
+if (password==pass1)
+  alert('Password Correct! Click OK to enter!');
+else
+   {
+    window.location="www.google.com";
+    }
+
+//-->
+</SCRIPT>
  </head>
  <body class="bg-body">
   <div class="container">
