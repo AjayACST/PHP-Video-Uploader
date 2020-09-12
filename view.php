@@ -6,7 +6,7 @@
       $file = $_GET["file"];
       $fileDir = "upload/".$file."";
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
-      $fileDir = "Test";
+      $fileName = "Test";
       $thumb_name = "Test";
       meta($fileName,$thumb_name);
 
