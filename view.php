@@ -7,6 +7,7 @@
       $fileDir = "upload/".$file."";
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
       $fileName = $file;
+      $stripped = str_replace(' ', '%20', $file);
       $thumb_name = "https://video.quirky.codes/thumb/".$file.".png";
       meta($fileName,$thumb_name);
 
