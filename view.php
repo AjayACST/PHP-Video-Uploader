@@ -8,6 +8,7 @@
           echo'<!DOCTYPE html>
           <html>
               <head>
+                <meta name="description" content=" '.$file.'">
                   <link rel="stylesheet" href="https://cdn.plyr.io/2.0.15/plyr.css">
                   <script src="https://cdn.plyr.io/2.0.15/plyr.js"></script>
                   <title>'.$file.'</title>
