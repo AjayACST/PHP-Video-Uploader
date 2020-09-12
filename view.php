@@ -5,9 +5,10 @@
 
       $file = $_GET["file"];
       $fileDir = "upload/".$file."";
-      $tumb_name = "thumb/".$file."";
+      $fileName = $file;
+      $tumb_name = "https://video.quirky.codes/thumb/".$file."";
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
-      meta($fileDir,$thumb_name);
+      meta($fileName,$thumb_name);
 
           echo'<!DOCTYPE html>
           <html>
