@@ -1,14 +1,9 @@
 
       <?php
 
-        include('meta.php');  
-
       $file = $_GET["file"];
       $fileDir = "upload/".$file."";
-      $fileName = "Test";
-      $tumb_name = "https://video.quirky.codes/thumb/".$file."";
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
-      #meta($fileName,$thumb_name);
 
           echo'<!DOCTYPE html>
           <html>

@@ -1,6 +1,6 @@
 <?php
 
-function meta($fileName,$thumb_name);
+function meta($fileName,$thumb_name)
 {?>
     <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
