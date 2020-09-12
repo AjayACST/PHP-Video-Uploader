@@ -5,7 +5,7 @@
 
       $file = $_GET["file"];
       $fileDir = "upload/".$file."";
-      $fileName = "This is  a test";
+      $fileName = $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
       $tumb_name = "https://video.quirky.codes/thumb/".$file."";
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
       meta($fileName,$thumb_name);
