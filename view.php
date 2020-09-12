@@ -10,7 +10,7 @@
       $stripped = str_replace(' ', '%20', $file);
       $thumb_name = "https://video.quirky.codes/thumb/".$stripped.".png";
       $video_file = "https://video.quirky.codes/upload/".$stripped."";
-      meta($fileName,$thumb_name);
+      meta($fileName,$thumb_name,$video_file);
 
           echo'<!DOCTYPE html>
           <html>
