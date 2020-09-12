@@ -3,12 +3,14 @@
 
       $file = $_GET["file"];
       $fileDir = "upload/".$file."";
+      $tumb_name = "thumb/".$file."";
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
 
           echo'<!DOCTYPE html>
           <html>
               <head>
                 <meta name="description" content=" '.$file.'">
+                <meta name="og:image" content=" '.$thumb_name.'">
                   <link rel="stylesheet" href="https://cdn.plyr.io/2.0.15/plyr.css">
                   <script src="https://cdn.plyr.io/2.0.15/plyr.js"></script>
                   <title>'.$file.'</title>
