@@ -7,11 +7,11 @@
       $fileDir = "upload/".$file."";
       $tumb_name = "thumb/".$file."";
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
+      meta($fileDir,$thumb_name);
 
           echo'<!DOCTYPE html>
           <html>
               <head>
-              'meta($fileDir,$thumb_name);'
                   <link rel="stylesheet" href="https://cdn.plyr.io/2.0.15/plyr.css">
                   <script src="https://cdn.plyr.io/2.0.15/plyr.js"></script>
                   <title>'.$file.'</title>
