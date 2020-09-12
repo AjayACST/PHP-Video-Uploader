@@ -7,7 +7,7 @@
       $fileDir = "upload/".$file."";
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
       $fileName = $file;
-      $thumb_name = "https://video.quirky.codes/thumb/Beat%20Saber%202020-08-26%2017-07-31.mp4.png";
+      $thumb_name = "https://video.quirky.codes/thumb/".$file.".png";
       meta($fileName,$thumb_name);
 
           echo'<!DOCTYPE html>
