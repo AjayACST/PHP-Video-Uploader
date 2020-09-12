@@ -8,7 +8,7 @@
       $fileName = $file;
       $tumb_name = "https://video.quirky.codes/thumb/".$file."";
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
-      meta($thumb_name,$thumb_name);
+      meta($fileName,$thumb_name);
 
           echo'<!DOCTYPE html>
           <html>
