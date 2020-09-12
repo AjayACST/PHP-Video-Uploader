@@ -8,7 +8,7 @@
       $ext = pathinfo($fileDir, PATHINFO_EXTENSION);
       $fileName = $file;
       $stripped = str_replace(' ', '%20', $file);
-      $thumb_name = "https://video.quirky.codes/thumb/".$stripped.".png";
+      $thumb_name = "https://video.quirky.codes/upload/".$stripped."";
       meta($fileName,$thumb_name);
 
           echo'<!DOCTYPE html>
