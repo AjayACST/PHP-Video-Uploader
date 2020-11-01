@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.js"></script>
   <link rel="stylesheet" href="css/main.css">
-  <SCRIPT language="JavaScript">
+  <script language="JavaScript">
 <!--hide
 
 var password;
@@ -30,7 +30,7 @@ else
     }
 
 //-->
-</SCRIPT>
+</script>
  </head>
  <body class="bg-body">
   <div class="container">
